@@ -1,0 +1,39 @@
+@import 'src/styles/vars';
+
+#navbar {
+    background-color: $primary-color;
+    border-radius: 6px;
+    color: #fff;
+    margin-bottom: 1em;
+}
+
+#title {
+    width: 6rem;
+    font-size: 1.6em;
+}
+
+.navigation-item {
+  margin: .4em .6em;
+  color: #f8f9fa;
+  text-decoration: none;
+  transition-duration: .5s;
+  transition-timing-function: ease;
+
+  &:hover {
+    transform: scale(1.2);
+    color: #f8f9fa;
+    text-decoration: none;
+  }
+
+  &-active {
+    color: $beige;
+    font-weight: bolder;
+
+    &:hover {
+      transform: scale(1);
+      color: $beige;
+      text-decoration: none;
+    }
+  }
+}
+

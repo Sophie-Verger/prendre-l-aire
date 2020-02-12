@@ -1,0 +1,26 @@
+@import 'src/styles/vars';
+
+.ui.avatar.image {
+  width: 100px;
+  height: 100px;
+}
+
+#info > p {
+  margin: 1em;
+}
+
+.ui.button {
+  margin: .5em;
+}
+
+#commentsTitle {
+  margin: 2em 0;
+  font-size: 30px;
+  font-weight: bold;
+  color: $beige;
+}
+
+.comment {
+  margin-left: 1em;
+}
+ 

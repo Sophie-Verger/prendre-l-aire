@@ -1,0 +1,49 @@
+@import 'src/styles/vars';
+
+#team {
+  margin: 1.6em;
+}
+
+#pageTitle {
+  margin: 0em .8em .9em;
+  padding: .4em;
+}
+
+.cards {
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
+}
+
+.ui.cards>.card {
+  width: 200px;
+}
+
+p.job {
+  font-size: .9em;
+  padding-top: .7em;
+  font-weight: bold;
+  line-height: 110%;
+}
+
+p.role {
+  font-size: .8em;
+}
+
+p.description {
+  font-size: .9em;
+  padding-top: .7em;
+}
+
+.social {
+  color: #dedede;
+  transition-duration: .5s;
+  transition-timing-function: ease;
+  margin: 0 .6em;
+
+  //hover management
+  &:hover {
+    transform: scale(1.2);
+    color: $primary-color;
+  }
+}

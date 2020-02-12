@@ -1,0 +1,24 @@
+@import 'src/styles/vars';
+
+#description, #mapid {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#mapid {
+  height: 60vh;
+  width: 100%;
+}
+
+#highwayslist {
+  z-index: 1100;
+}
+
+#geolocalisation {
+    font-size: 32px;
+    margin: 0.5em 0 0.5em 0;
+}
+
+#crosshair {
+  margin: 0 .3em 0 1em;
+}
